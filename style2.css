@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsla(322, 67%, 66%, 0.754);
+    flex-direction: column;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    color: rgb(6, 6, 6);
+    margin-top: -1rem;
+}
+#form label{
+    color: rgb(254, 254, 254);
+}
+#form{
+    margin-top: 1rem;
+    position: relative;
+    left: 11vw;
+}
+#email, #username, #password, #confirmpassword{
+    width: 70vh;
+    background: #d6a5ced8;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.7rem;
+    color: #000000;
+}
+
+button{
+    margin-top: 0.3rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    outline: none;
+    border: solid white;
+    background: #000;
+    color: #ffffff;
+    cursor: pointer;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+}
